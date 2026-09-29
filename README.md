@@ -31,7 +31,7 @@ The engine evaluates live intraday asset prices against the dynamically generate
 ### 4. Event-Driven Alert Delivery (Slack Webhooks)
 To bypass human latency, the system constructs a structured, markdown-formatted JSON payload and dispatches it via an authenticated HTTP POST request to Slack's Incoming Webhook API. 
 
-![Alert](slack_alert.png)
+![Alert](slack_alert.PNG)
 
 * **Payload Structure:** Formats critical incident telemetry, including ticker symbol, breached price, baseline risk floor, and exact dollar deviation.
 * **Operational Routing:** Pushes the alert with high-priority visual markers (siren emojis, bold callouts) into the dedicated `#risk-alerts` trading channel within milliseconds of detection.
