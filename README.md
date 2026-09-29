@@ -1,7 +1,7 @@
 # Real-Time Algorithmic Risk & Anomaly Alert Engine
 
 ## 📌 The Business Problem
-Trading desks and risk managers face severe operational risk due to "dashboard fatigue." Traditional Business Intelligence (BI) dashboards are fundamentally passive—requiring human analysts to manually inspect reports to identify anomalies. In high-frequency and volatile financial markets, discovering liquidity crises, flash crashes, or sudden capital drawdowns hours after they occur leads to irreversible financial losses.
+Trading desks and risk managers face severe operational risk due to "dashboard fatigue." Traditional Business Intelligence (BI) dashboards are fundamentally passive requiring human analysts to manually inspect reports to identify anomalies. In high-frequency and volatile financial markets, discovering liquidity crises, flash crashes, or sudden capital drawdowns hours after they occur leads to irreversible financial losses.
 
 This project is an automated, event-driven anomaly detection and alert system engineered to replace passive reporting. It continuously monitors equity price action, computes dynamic statistical support boundaries, and dispatches instant outbound alerts to operational communication channels the second an asset breaches normal historical variance.
 
